@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import confusion_matrix
 
 
-data = pd.read_csv('C:/Users/ardac/OneDrive/Desktop/Udemy/KNN/veriler.csv')
+data = pd.read_csv('veriler.csv')
 
 X = data.iloc[:,1:3] #Height - Weight
 x = X.values
