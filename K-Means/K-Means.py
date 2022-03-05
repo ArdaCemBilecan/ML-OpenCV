@@ -20,3 +20,4 @@ for i in range(1,11):
     
 plt.plot(range(1,11), results) 
 plt.savefig('WCSS_Results.png')
+# When we try to choose the best number of K , we have to look at the WCSS results. It is obvious 4 is a elbow. 4 is the best choice.
